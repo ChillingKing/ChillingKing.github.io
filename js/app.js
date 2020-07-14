@@ -1,3 +1,12 @@
+$(".slider").click(() => {
+  $("body").toggleClass("body-light body-dark")
+  $(".main-heading").toggleClass("main-heading-light main-heading-dark")
+  $(".main-subheading").toggleClass("main-subheading-light main-subheading-dark")
+  $("footer").toggleClass("footer-light footer-dark")
+  $(".footer-title").toggleClass("footer-title-light footer-title-dark")
+  $(".footer-body").toggleClass("footer-body-light foote-body-dark")
+})
+
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
