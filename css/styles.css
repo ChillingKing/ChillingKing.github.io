@@ -193,7 +193,7 @@
 @media (max-width: 575px) {
     .heading-container {
         padding-top: 10vh;
-        padding-bottom: 20vh;
+        padding-bottom: 17.5vh;
     }
 
     .header-link {
@@ -213,6 +213,7 @@
     .main-subheading {
         padding-left: 10px;
         padding-bottom: 4vh;
+        font-weight: 600;
         font-size: 3rem;
     }
 
