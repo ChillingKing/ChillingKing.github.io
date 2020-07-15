@@ -23,6 +23,7 @@
     display: inline-block;
     padding-right: 32px;
     color: #888;
+    transform: translateY(8px);
 }
 
 .header-link::selection {
@@ -89,7 +90,7 @@
 
 .main-subheading {
     box-sizing: border-box;
-    padding-bottom: 80px;
+    padding-bottom: 8vh;
     line-height: 1.25;
     height: 20vh;
     font-size: 4rem;
@@ -167,6 +168,64 @@
 .contact-container {
     padding-top: 4vh;
     padding-bottom: 2vh;
+}
+
+@media (max-width: 767px) {
+    .main-heading {
+        font-size: 3.5rem;
+    }
+
+    .main-subheading {
+        font-size: 3.5rem;
+    }
+
+    .social-list {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .social-list li {
+        width: 30%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 575px) {
+    .heading-container {
+        padding-top: 10vh;
+        padding-bottom: 20vh;
+    }
+
+    .header-link {
+        padding-left: 10px;
+    }
+
+    .slider {
+        transform: translateX(-20px);
+    }
+
+    .main-heading {
+        padding-left: 10px;
+        font-weight: 600;
+        font-size: 3rem;
+    }
+    
+    .main-subheading {
+        padding-left: 10px;
+        padding-bottom: 4vh;
+        font-size: 3rem;
+    }
+
+    .footer-title {
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 374px) {
+    .social-list {
+        padding-left: 10px;
+    }
 }
 
 .switch {
