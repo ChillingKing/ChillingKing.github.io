@@ -115,6 +115,10 @@
     background: #0F0;
 }
 
+.skill {
+    padding-bottom: 40px;
+}
+
 .footer-light {
     background-color: #FBFBFB;
 }
@@ -131,6 +135,10 @@
     transform: translateY(10px);
 }
 
+.footer-title::selection {
+    background: #0F0;
+}
+
 .footer-title-light {
     color: #222;
 }
@@ -145,6 +153,10 @@
     font-size: 0.75rem;
     font-weight: 400;
     color: #666;
+}
+
+.footer-body::selection {
+    background: #0F0;
 }
 
 .footer-body-light {
@@ -168,6 +180,129 @@
 .contact-container {
     padding-top: 4vh;
     padding-bottom: 2vh;
+}
+
+.about-container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.about-para::selection {
+    background: #0F0;
+}
+
+.about-para {
+    font-size: 1.25rem;
+}
+
+.about-para-dark {
+    color: #AAA;
+}
+
+.skills-container {
+    padding: 5vh 0 10vh 0;
+    font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.about-heading {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.about-heading::selection {
+    background: #0F0;
+}
+
+.about-heading-dark {
+    color: #DDD;
+}
+
+.about-subheading {
+    font-size: 2.5rem;
+}
+
+.about-subheading::selection {
+    background: #0F0;
+}
+
+.about-subheading-dark {
+    color: #DDD;
+}
+
+.skill-title {
+    font-size: 1.5rem;
+}
+
+.skill-title::selection {
+    background: #0F0;
+}
+
+.skill-title-dark {
+    color: #AAA;
+}
+
+.work-heading-container {
+    padding-left: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.work-heading {
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-size: 3rem;
+    padding-bottom: 5vh;
+    color: #222;
+}
+
+.work-heading::selection {
+    background: #0F0;
+}
+
+.work-heading-dark {
+    color: #DDD;
+}
+
+.project-title-p {
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #222;
+}
+
+.project-title-p::selection {
+    background: #0F0;
+}
+
+.project-title-p-dark {
+    color: #DDD;
+}
+
+.project-timespan-p {
+    font-family: "Roboto", "Helvetica", sans-serif;
+    color: #777;
+}
+
+.project-timespan-p::selection {
+    background: #0F0;
+}
+
+.project-description-p {
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+    color: #222;
+}
+
+.project-description-p::selection {
+    background: #0F0;
+}
+
+.project-description-p-dark {
+    color: #DDD;
 }
 
 @media (max-width: 767px) {
@@ -220,6 +355,20 @@
     .footer-title {
         padding-bottom: 20px;
         padding-top: 10px;
+    }
+
+    .about-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .skills-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .work-heading-container {
+        padding-left: 10px;
     }
 }
 

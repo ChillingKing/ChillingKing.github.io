@@ -7,6 +7,13 @@ $(".slider").click(() => {
   $(".footer-body").toggleClass("footer-body-light foote-body-dark")
   $(".header-link").toggleClass("header-link-dark")
   $(".selected").toggleClass("selected-dark")
+  $(".about-para").toggleClass("about-para-dark")
+  $(".about-heading").toggleClass("about-heading-dark")
+  $(".about-subheading").toggleClass("about-subheading-dark")
+  $(".skill-title").toggleClass("skill-title-dark")
+  $(".work-heading").toggleClass("work-heading-dark")
+  $(".project-title-p").toggleClass("project-title-p-dark")
+  $(".project-description-p").toggleClass("project-description-p-dark")
 })
 
 var TxtRotate = function(el, toRotate, period) {
