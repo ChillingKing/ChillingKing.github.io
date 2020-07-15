@@ -7,7 +7,7 @@
 }
 
 .navigation-container {
-    padding: 50px 0;
+    padding: 5vh 0;
     font-size: 1rem;
     font-weight: 800;
     font-family: "Roboto Thin";
@@ -17,19 +17,66 @@
     padding-left: 0;
 }
 
+.header-link  {
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    padding-right: 32px;
+    color: #888;
+}
+
+.header-link::selection {
+    background: #0F0;
+}
+
+.header-link:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+.header-link-dark {
+    color: #777;
+}
+
+.header-link-dark:hover {
+    color: #AAA;
+}
+
+.selected {
+    color: #222;
+    font-weight: bold;
+}
+
+.selected:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+.selected-dark {
+    color: #DDD;
+}
+
+.selected-dark:hover {
+    color: #DDD;
+    text-decoration: underline;
+}
+
 .heading-container {
-    padding-top: 120px;
-    padding-bottom: 240px;
+    padding-top: 15vh;
+    padding-bottom: 25vh;
 }
 
 .main-heading {
     box-sizing: border-box;
-    padding-left: 0.5rem;
     line-height: 1.25;
     font-size: 4rem;
     font-weight: 900;
     font-family: "Roboto Black", "Helvetica", sans-serif;
     color: #222;
+}
+
+.main-heading::selection {
+    background: #0F0;
 }
 
 .main-heading-light {
@@ -42,14 +89,17 @@
 
 .main-subheading {
     box-sizing: border-box;
-    padding-left: 0.5rem;
     padding-bottom: 80px;
-    line-height: 1.5;
-    height: 200px;
+    line-height: 1.25;
+    height: 20vh;
     font-size: 4rem;
     font-weight: 800;
     font-family: "Roboto Black", "Helvetica", sans-serif;
     color: #222;
+}
+
+.main-subheading::selection {
+    background: #0F0;
 }
 
 .main-subheading-light {
@@ -58,6 +108,10 @@
 
 .main-subheading-dark {
     color: #DDD;
+}
+
+.main-subheading .job::selection {
+    background: #0F0;
 }
 
 .footer-light {
@@ -71,8 +125,9 @@
 .footer-title {
     font-family: "Roboto", "Helvetica", sans-serif;
     font-weight: 500;
-    padding-top: 20px;
+    padding-top: 2vh;
     color: #222;
+    transform: translateY(10px);
 }
 
 .footer-title-light {
@@ -105,13 +160,13 @@
 
 .social-list li a {
     float: left;
-    padding: 20px;
+    padding: 2vh;
     font-size: 2rem;
 }
 
 .contact-container {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
 }
 
 .switch {
@@ -159,7 +214,7 @@ input:checked + .slider {
   }
   
 input:focus + .slider {
-    box-shadow: 0 0 1px #0F0;
+    box-shadow: 0 0 1px #777;
 }
   
 input:checked + .slider:before {

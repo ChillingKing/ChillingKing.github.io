@@ -5,6 +5,8 @@ $(".slider").click(() => {
   $("footer").toggleClass("footer-light footer-dark")
   $(".footer-title").toggleClass("footer-title-light footer-title-dark")
   $(".footer-body").toggleClass("footer-body-light foote-body-dark")
+  $(".header-link").toggleClass("header-link-dark")
+  $(".selected").toggleClass("selected-dark")
 })
 
 var TxtRotate = function(el, toRotate, period) {
